@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {x.className += " responsive";}
+             else {x.className = "topnav";}
+        }
+    </script>
+    <title>OnlyTH</title>
+    <meta charset="UTF8">
+    <meta name="viewport" content="width=device-width, initial_scale=1.0">
+    <script src="https://kit.fontawesome.com/e8beebe002.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="topnav" id="myTopnav">
+            <a><i class="fa-solid fa-code svelte-5b7duj"></i> OnlyTH</a>
+            <a href="#Conhecimento">Conhecimento</a>
+            <a href="#Projetos">Projetos</a>
+            <a href="#Sobre Mim">Sobre Mim</a>
+            <a href="#Onde Me Encontrar">Onde Me Encontrar</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+        </div>
+        <div class="Div Sobre Mim">
+            <h1>Conhecimento</h1>
+            <p>Atualmente estou estudando Python.</p>
+        </div>
+        <div class="Div Sobre Mim">
+            <h1>Projetos</h1>
+            <p>Atualmente não trabalhei em nenhum grande projeto, entretanto tenho pretenção de algum dia poder participar de um.</p>
+        </div>
+        <div class="Div Sobre Mim">
+            <h1>Sobre Mim</h1>
+            <p>Sou um desenvolvedor Back end iniciante.</p>
+        </div>
+        <div class="Div Onde Me Encontrar">
+            <h1>Onde Me Encontrar</h1>
+            <p>Sou ativo grande parte das vezes no Discord e em outras redes sociais como o Instagram.</p>
+            <a href="https://discord.com/users/410479396084908044" target="_blank"><img src="https://lanyard.cnrad.dev/api/410479396084908044?borderRadius=20px&bg=00000000&idleMessage=Provavelmente%20comendo%20ou%20dormindo..." alt="Discord" class="responsiv2" /></a>
+            <nav class="contactBar" style="display:flex">
+                <div class="itemContactBar"><a href="https://github.com/OnlyTH777" target="_blank"><i class="fa-brands fa-github itemContactBar"></i></a></div>
+                <div class="itemContactBar"><a href="https://www.linkedin.com/in/tiago henrique padilha" target="_blank"><i class="fa-brands fa-linkedin itemContactBar"></i></a></div>
+                <div class="itemContactBar"><a href="https://www.instagram.com/padilha.th777/" target="_blank"><i class="fa-brands fa-instagram itemContactBar"></i></a></div>
+            </nav>
+        </div>
+</body>
+
+</html>
