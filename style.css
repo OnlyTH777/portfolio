@@ -36,6 +36,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav a {
+    padding-bottom: 5px;
     cursor: pointer;
     color: #8e96a1;
     float: right;
