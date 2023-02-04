@@ -45,7 +45,7 @@ body {
 }
 
 .topnav a.OnlyTH {
-    cursor: auto;
+    cursor: default;
     padding-bottom: 25px;
     color: #8e96a1;
     float: left;
