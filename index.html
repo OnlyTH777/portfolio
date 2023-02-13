@@ -2,20 +2,11 @@
 <html lang="en">
 
 <head>
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {x.className += " responsive";}
-             else {x.className = "topnav";}
-        }
-    </script>
     <title>OnlyTH</title>
     <meta charset="UTF8">
     <meta name="viewport" content="width=device-width, initial_scale=1.0">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/e8beebe002.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Alata&amp;display=swap">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,34 +14,34 @@
     <div class="Container">
         <div class="topnav" id="myTopnav">
             <a class="OnlyTH"><i class="fa-solid fa-code" id="OnlyTH"></i> OnlyTH</a>
-            <a onClick= "document.getElementById('sobre-mim').scrollIntoView();">Sobre Mim</a>
-            <a onClick= "document.getElementById('conhecimento').scrollIntoView();">Conhecimento</a>
-            <a onClick= "document.getElementById('projetos').scrollIntoView();">Projetos</a>
             <a onClick= "document.getElementById('onde-me-encontrar').scrollIntoView();">Onde Me Encontrar</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+            <a onClick= "document.getElementById('projetos').scrollIntoView();">Projetos</a>
+            <a onClick= "document.getElementById('conhecimento').scrollIntoView();">Conhecimento</a>
+            <a onClick= "document.getElementById('sobre-mim').scrollIntoView();">Sobre Mim</a>
+            <a class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
         </div>
-        <div class="Div Sobre Mim" id="sobre-mim">
+        <div id="sobre-mim">
             <h1>Sobre Mim</h1>
             <p>Meu nome é Tiago Henrique Padilha, tenho 16 anos e sou um programador Backend.</p>
             <p>Atualmente estou focado em aprender mais sobre a linguagem Python.</p>
             <p>Futuramente pretendo aprender sobre o framework Django.</p>
             <p>Estou aberto para novas oportunidades na área.</p>
         </div>
-        <div class="Div Conhecimento" id="conhecimento">
+        <div id="conhecimento">
             <h1>Conhecimento</h1>
             <p>Possuo conhecimento básico ao intermediário da linguagem Python.</p>
         </div>
-        <div class="Div Projetos" id="projetos">
+        <div id="projetos">
             <h1>Projetos</h1>
             <p>Atualmente não fiz parte de nenhum grande projeto.</p>
         </div>
-        <div class="Div Onde Me Encontrar" id="onde-me-encontrar">
+        <div id="onde-me-encontrar">
             <h1>Onde Me Encontrar</h1>
             <p>Sou ativo grande parte das vezes no Discord e em outras redes sociais como o Instagram.</p>
-            <a href="https://discord.com/users/410479396084908044" target="_blank"><img src="https://lanyard.cnrad.dev/api/410479396084908044?borderRadius=20px&bg=00000000&idleMessage=Provavelmente%20comendo%20ou%20dormindo..." alt="Discord" class="responsiv2" /></a>
+            <a href="https://discord.com/users/410479396084908044" target="_blank"><img src="https://lanyard.cnrad.dev/api/410479396084908044?borderRadius=20px&bg=00000000&idleMessage=Provavelmente%20comendo%20ou%20dormindo..." alt="Discord" class="discordImg" /></a>
             <nav class="contactBar" style="display:flex">
                 <div class="itemContactBar"><a href="https://github.com/OnlyTH777" target="_blank"><i class="fa-brands fa-github itemContactBar"></i></a></div>
-                <div class="itemContactBar"><a href="https://www.linkedin.com/in/tiago henrique padilha" target="_blank"><i class="fa-brands fa-linkedin itemContactBar"></i></a></div>
+                <div class="itemContactBar"><a href="https://www.linkedin.com/in/tiago-henrique-padilha/" target="_blank"><i class="fa-brands fa-linkedin itemContactBar"></i></a></div>
                 <div class="itemContactBar"><a href="https://www.instagram.com/padilha.th777/" target="_blank"><i class="fa-brands fa-instagram itemContactBar"></i></a></div>
             </nav>
         </div>
