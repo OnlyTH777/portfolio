@@ -1,2 +1,2 @@
-# portfolio
-Projeto totalmente mal pensado porém funcional (ou não)
+# Portfolio OnlyTH
+Projeto totalmente mal pensado e executado, porém funcional (ou não)
