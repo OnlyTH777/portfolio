@@ -9,14 +9,14 @@ body {
     background: linear-gradient(0deg, rgba(50, 60, 70, 1) 25%, rgba(20, 30, 40, 1) 100%);
 }
 
-.Container div {
-    padding: 25px 50px;
-    color: #ffffff;
-}
-
 .topnav {
     color: #8e96a1;
     padding: 25px 50px;
+}
+
+#div-conhecimento, #div-projetos, #div-sobre-mim, #div-onde-me-encontrar {
+    padding: 25px 50px;
+    color: #ffffff;
 }
 
 .itemContactBar {
